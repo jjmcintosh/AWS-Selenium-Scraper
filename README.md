@@ -41,8 +41,7 @@ Query Params for post request:
 		"carrier": "CARRIER_NAME"
 	}
 
-If the tracking number matches the carrier, the return body will contain a string with the carrier url
-
+If the tracking number matches the carrier, the return body will contain a string with the carrier url. 
 Otherwise, the return body will contain "false"
 
 Supported "carrier" variables:
