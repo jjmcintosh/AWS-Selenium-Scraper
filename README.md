@@ -11,7 +11,7 @@ A few things:
 	The lambda_function.py file can be edited to your desire
 	
 	
-###  NOTE  ### - this zip file contains linux files that windows and mac systems cannot properly re-zip. If you wish to edit, be sure you you are using a Linux system or subsystem so zip the package.
+###  NOTE - this zip file contains linux files that windows and mac systems cannot properly re-zip. If you wish to edit, be sure you you are using a Linux system or subsystem so zip the package.
 
 This can be accomplished in subsystems command line by using the following command: 
 				zip -r lambda_function.zip *
@@ -50,5 +50,6 @@ Supported "carrier" variables:
 
 
 Unsupported "carrier" variables that can be implemented:
+
 	'CH Robinson'  - Removed for time being but can be added back by uncommenting and changing function dictionary (Line 161)
 
