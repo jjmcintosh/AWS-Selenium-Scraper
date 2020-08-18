@@ -14,7 +14,11 @@ A few things:
 ###  NOTE - this zip file contains linux files that windows and mac systems cannot properly re-zip. If you wish to edit, be sure you you are using a Linux system or subsystem so zip the package.
 
 This can be accomplished in subsystems command line by using the following command: 
-				zip -r lambda_function.zip *
+
+
+	zip -r lambda_function.zip *
+
+
 This will zip all files into the current directory under the name lambda_function.zip
 
 
@@ -32,10 +36,10 @@ This function is intended to be used for post requests.
 
 Query Params for post request:
 
-{
-	"tracking": "##########",
-	"carrier": "CARRIER_NAME"
-}
+	{
+		"tracking": "##########",
+		"carrier": "CARRIER_NAME"
+	}
 
 If the tracking number matches the carrier, the return body will contain a string with the carrier url
 Otherwise, the return body will contain "false"
