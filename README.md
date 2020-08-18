@@ -1,6 +1,6 @@
 # AWS-Selenium-Scraper
 
-It took me forever to get a headless version of chrome running on AWS. Here's my solution.
+It took me forever to get a headless version of chrome running on AWS Python 3.6. Here's my solution.
 
 
 A few things:
